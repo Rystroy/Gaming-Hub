@@ -1,0 +1,61 @@
+* {
+margin: 0 0 0;
+}
+
+#TopBanner {
+    background-color: black;
+}
+
+body {
+    background-image: url(Image/Background.PNG);
+    color: white;
+    text-align: center;
+    background-color: cyan;
+}
+
+#main {
+    position: relative;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 2.5vh;
+    margin-right: auto;
+    text-align: center;
+}
+
+#nav a {
+    color: gray;
+    transition-property: color;
+    transition: all 1s;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 10vh;
+    color: lightgray;
+}
+
+#nav a:hover {
+    color: white;
+    text-decoration: inherit;
+    font-size: 2em;
+    text-decoration-line: underline;
+}
+
+#main img {
+    width: 100%;
+    height: auto;
+}
+
+#heroSection {
+    width: 100%;
+    height: 12vh;
+    background-image: url(Image/banner.PNG);
+    background-size: cover;
+    display: table;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+    font-size: 4em;
+    transition: all 1s;
+    border-image: url(Image/Instagram.jpg);
+}
